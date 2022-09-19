@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(64, 63, 63);
+  display: flex;
+}
+.logo {
+  width: 50%;
+  color: #fff;
+  font-family: "Squada One", sans-serif;
+  font-size: 25px;
+  padding: 25px;
+  padding-left: 100px;
+}
+.menu {
+  width: 60%;
+}
+
+ul {
+  width: 50%;
+  padding-top: 25px;
+  padding-left: 45%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+ul li a {
+  color: #fff;
+  font-family: "Squada One", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+.image {
+  width: 100%;
+  height: 70vh;
+}
+.middle {
+  margin-top: -4px;
+  width: 100%;
+  height: 40vh;
+  background-color: #646363;
+}
+.text {
+  color: #fff;
+  font-family: "Squada One", sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-left: 33%;
+  padding-top: 60px;
+}
+.sec-text {
+  color: #fff;
+  font-family: Share, arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-left: 40%;
+  padding-top: 50px;
+}
+.btn {
+  color: #fff;
+  font-family: Share, arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  background-color: #646363;
+  width: 200px;
+  height: 50px;
+  margin-left: 44%;
+  margin-top: 20px;
+  border-color: #fff;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #646363;
+}
+.third {
+  width: 100%;
+  height: 110vh;
+  background-color: #fff;
+  display: flex;
+}
+.span {
+  display: flex;
+  justify-content: center;
+  color: #646363;
+  padding-top: 50px;
+  font-size: 27px;
+  letter-spacing: 3px;
+  font-family: Share, arial, sans-serif;
+}
+.right-side {
+  width: 33.3%;
+  padding: 70px;
+}
+.right-heading {
+  text-align: center;
+  color: #1b1b1b;
+  font-family: Share, arial, sans-serif;
+  font-size: 20px;
+}
+.center {
+  padding: 70px;
+  width: 33.3%;
+}
+.center-heading {
+  text-align: center;
+  color: #1b1b1b;
+  font-family: Share, arial, sans-serif;
+  font-size: 20px;
+}
+.left-side {
+  width: 33.3%;
+  padding: 70px;
+}
+.left-heading {
+  text-align: center;
+  color: #1b1b1b;
+  font-family: Share, arial, sans-serif;
+  font-size: 20px;
+}
+.right-img {
+  width: 100%;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+.center-img {
+  padding-top: 40px;
+  width: 100%;
+}
+.left-img {
+  padding-top: 40px;
+  width: 100%;
+  padding-right: 50px;
+}
+.rigth-div {
+  padding-left: 100px;
+}
+.right-span {
+  font-size: 20px;
+  color: #646363;
+  font-family: Share, arial, sans-serif;
+  text-align: center;
+}
+.center-div {
+  padding-left: 40px;
+}
+.center-span {
+  font-size: 20px;
+  color: #646363;
+  font-family: Share, arial, sans-serif;
+  text-align: center;
+}
+.left-div {
+  padding-left: 50px;
+}
+.left-span {
+  font-size: 20px;
+  color: #646363;
+  font-family: Share, arial, sans-serif;
+  text-align: center;
+}
+.social {
+  width: 100%;
+  height: 30vh;
+  background-color: #fff;
+}
+.h2 {
+  color: #595959;
+  font-family: Share, arial, sans-serif;
+  font-size: 27px;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.icons {
+  color: rgb(12, 11, 12);
+  display: flex;
+  justify-content: center;
+}
+.facebook {
+  padding: 30px;
+  width: 25px;
+  height: 25px;
+}
+.twitter {
+  padding: 30px;
+  width: 25px;
+  height: 25px;
+}
+.instagram {
+  width: 25px;
+  height: 25px;
+  padding: 30px;
+}
+.youtube {
+  padding: 30px;
+  width: 25px;
+  height: 25px;
+}
+.bottom {
+  width: 100%;
+  height: 30vh;
+  background-color: #fff;
+}
+.bottom-head {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-heading {
+  color: #ad8c8c;
+  font-family: Share, arial, sans-serif;
+  font-size: 41px;
+  font-weight: 100;
+  margin-left: 110px;
+}
+.bottom-box {
+  width: 60%;
+  height: 50px;
+}
+.sbt {
+  width: 130px;
+  color: #ad8c8c;
+  font-family: Share, arial, sans-serif;
+  font-size: 20px;
+  height: 50px;
+  margin-right: 160px;
+}
+.para {
+  display: flex;
+  justify-content: center;
+  color: #595959;
+  font-family: Share, arial, sans-serif;
+  font-size: large;
+  padding-top: 45px;
+}
+.review {
+  width: 100%;
+  height: 115vh;
+  background-color: #1b1b1b;
+}
+.review-heading{
+  padding-top: 60px;
+  font-family: "Squada One", sans-serif ;
+  letter-spacing: 2px;
+  font-size: 55px;
+  color:#fff;
+  text-align: center;
+}
+.reviews{
+  display: flex;
+
+}
+.review-left {
+  width: 20%;
+  height: 60vh;
+  margin-left: 225px;
+  margin-top: 5%;
+  background-color:#fff;
+  
+}
+.review-sides{
+
+text-align: center;
+padding-top: 30px;
+
+}
+.rev-image{
+  border-radius: 35px;
+  
+}
+.star{
+  color: burlywood;
+  font-size: 25px;
+  padding-top: 40px;
+}
+.h3{
+  padding-top: 15px;
+  font-family:Share, arial, sans-serif ;
+}
+.rev-para{
+  padding-top: 25px;
+  font-family:Share, arial, sans-serif ;
+  font-size: 20px;
+}
+.review-center {
+  width: 20%;
+  height: 60vh;
+  margin-top: 5%;
+  margin-left: 50px;
+  background-color: #fff;
+}
+.review-right {
+  width: 20%;
+  height: 60vh;
+  margin-top: 5%;
+  margin-left: 50px;
+  background-color:#fff;
+}
+.footer{
+  width: 100%;
+  height: 30vh;
+  background-color: #595959;
+  
+}
+.rights{
+  color: aliceblue;
+  font-family:Share, arial, sans-serif ;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 65px;
+}
+.end{
+  padding-top: 55px;
+  color: aliceblue;
+  font-family:Share, arial, sans-serif ;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
